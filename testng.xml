@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Photo Gallery Test Suite">
+    <test name="All Functional Tests">
+        <classes>
+
+            <class name="RegisterWithExistingUsernameTest"/>
+            <class name="SocialLoginsFailTest"/>
+            <class name="LoginAndLogoutTest"/>
+            <class name="CreateNewAlbumTest"/>
+            <class name="UploadNewPhotoTest"/>
+            <class name="UploadWithoutFileTest"/>
+            <class name="UploadInvalidFileTypeTest"/>
+            <class name="SearchAndViewPhotoTest"/>
+            <class name="SearchWithEmptyInputTest"/>
+            <class name="DeletePhotoTest"/>
+            <class name="DeleteAlbumTest"/>
+
+        </classes>
+    </test>
+</suite>
